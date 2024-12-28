@@ -35,15 +35,10 @@ function addWiki(country){
     div.appendChild(factHTML);
 
     const link = document.createElement('a');
-    link.style.display = "block";
-    link.style.textAlign = "center";
+    link.setAttribute("id", "wikilink");
     link.textContent = "learn more on Wikipedia";
     link.href = `https://wikipedia.org/wiki/${country}`;
     link.target = "_blank";
-    link.style.color = "blue";
-    link.style.marginTop = "10px";
-    link.style.fontFamily = "Outfit";
-    link.style.textDecoration = "underline";
 
     div.appendChild(link);
 

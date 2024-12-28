@@ -21,10 +21,20 @@
     width: fit-content;
     transition: 250ms linear;
     opacity: 1;
-    position: absolute; /* or "fixed" */
+    position: absolute; /* or fixed */
     z-index: 9999;
     animation: fadeIn 3s;
   }
+
+#wikilink {
+
+    display : block;
+    text-align : center;
+    color : blue;
+    margin-top : 10px;
+    font-family : Outfit;
+    text-decoration : underline;
+}
   
 @keyframes fadeIn {
     0%{
